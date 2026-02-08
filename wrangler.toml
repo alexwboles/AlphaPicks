@@ -1,4 +1,11 @@
+name = "alphapicks"
+main = "src/worker.ts"
+compatibility_date = "2025-02-08"
+
 [[d1_databases]]
 binding = "DB"
 database_name = "weekly_picks_db"
 database_id = "e73bd262-2109-45d7-ac6d-b92eb7bacd6f"
+
+[triggers]
+crons = ["0 12 * * 0"]
