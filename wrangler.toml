@@ -1,4 +1,4 @@
 [[d1_databases]]
-binding = "weekly_picks_db"
+binding = "DB"
 database_name = "weekly_picks_db"
 database_id = "e73bd262-2109-45d7-ac6d-b92eb7bacd6f"
